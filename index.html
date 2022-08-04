@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"/>
+      <!-- ↑ example: "►fa far fa-save◄ adds a floppy icon to button and ►fa-spin◄ adds an animation to the icon" -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"/>
+      <!-- page layout styling -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- ↓ to reset page layout style across different browsers to achieve near similar look and feel on each browser -->
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <!-- ↓ date and time were added in p through javascript -->
+      <p id="currentDay" class="lead">Date and Time</p>
+    </header>
+
+    <div class="container">
+      <!-- Timeblocks go here -->
+      <!-- 9 to 5 -->
+      <!-- ↓Nine o' clock -->
+      <section id="nine" class="row time-block past">
+        <div class="col-xs hour"><span id="9">09:00Hrs(am)</span>
+        </div>
+        <textarea class="col-md description border" placeholder="Add schedule details/brief-->"></textarea>
+        <button class="col-1 saveBtn" aria-label="9am"><span class="fa far fa-save fa-spin"></span>
+        </button>
+      </section>
+      <!-- ↓Ten o' clock -->
+      <section id="ten" class="row time-block past">
+        <div class="col- hour"><span id="10">10:00Hrs(am)</span>
+        </div>
+        <textarea class="col-md description border" placeholder="Add schedule details/brief-->"></textarea>
+        <button class="col-1 saveBtn" aria-label="10am"><span class="fa far fa-save fa-spin"></span>
+        </button>
+      </section>
+      <!-- ↓Eleven o' clock -->
+      <section id="eleven" class="row time-block past">
+        <div class="col- hour"><span id="11">11:00Hrs(am)</span>
+        </div>
+        <textarea class="col-md description border" placeholder="Add schedule details/brief-->"></textarea>
+        <button class="col-1 saveBtn" aria-label="11am"><span class="fa far fa-save fa-spin"></span>
+        </button>
+      </section>
+      <!-- ↓Twelve o' clock -->
+      <section id="twelve" class="row time-block present">
+        <div class="col- hour"><span id="12">12:00Hrs(pm)</span>
+        </div>
+        <textarea class="col-md description border" placeholder="Add schedule details/brief-->"></textarea>
+        <button class="col-1 saveBtn" aria-label="12pm"><span class="fa far fa-save fa-spin"></span>
+        </button>
+      </section>
+      <!-- ↓One o' clock -->
+      <section id="one" class="row time-block future">
+        <div class="col- hour"><span id="13">13:00Hrs(pm)</span>
+        </div>
+        <textarea class="col-md description border" placeholder="Add schedule details/brief-->"></textarea>
+        <button class="col-1 saveBtn" aria-label="1pm"><span class="fa far fa-save fa-spin"></span>
+        </button>
+      </section>
+      <!-- ↓Two o' clock -->
+      <section id="two" class="row time-block future">
+        <div class="col- hour"><span id="14">14:00Hrs(pm)</span>
+        </div>
+        <textarea class="col-md description border" placeholder="Add schedule details/brief-->"></textarea>
+        <button class="col-1 saveBtn" aria-label="2pm"><span class="fa far fa-save fa-spin"></span>
+        </button>
+      </section>
+      <!-- ↓Three o' clock -->
+      <section id="three" class="row time-block future">
+        <div class="col- hour"><span id="15">15:00Hrs(pm)</span>
+        </div>
+        <textarea class="col-md description border" placeholder="Add schedule details/brief-->"></textarea>
+        <button class="col-1 saveBtn" aria-label="3pm"><span class="fa far fa-save fa-spin"></span>
+        </button>
+      </section>
+      <!-- ↓Four o' clock -->
+      <section id="four" class="row time-block future">
+        <div class="col- hour"><span id="16">16:00Hrs(pm)</span>
+        </div>
+        <textarea class="col-md description border" placeholder="Add schedule details/brief-->"></textarea>
+        <button class="col-1 saveBtn" aria-label="4pm"><span class="fa far fa-save fa-spin"></span>
+        </button>
+      </section>
+      <!-- ↓Five o' clock -->
+      <section id="five" class="row time-block future">
+        <div class="col- hour"><span id="17">17:00Hrs(pm)</span>
+        </div>
+        <textarea class="col-md description border" placeholder="Add schedule details/brief-->"></textarea>
+        <button class="col-1 saveBtn" aria-label="5pm"><span class="fa far fa-save fa-spin"></span>
+        </button>
+      </section>
+    </div>
+    <!-- ↓ always place jquery link above other script(s) to call it's actions 1st -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- ↓ time/date/day library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
