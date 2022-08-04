@@ -16,8 +16,8 @@ In this challenge, we are tasked with creating a simple hourly calender (9-5) wo
 
 ## Links
 
-    - [[Deployed link](https://a-n26.github.io/Work-day-scheduler/)]
-    - [[Github repo link](https://github.com/A-N26/Work-day-scheduler.git)]
+    - ![Deployed link](https://a-n26.github.io/Work-day-scheduler/)
+    - ![Github repo link](https://github.com/A-N26/Work-day-scheduler.git)
 
 ## Edits/Additions
 
@@ -74,5 +74,5 @@ In this challenge, we are tasked with creating a simple hourly calender (9-5) wo
 
 ## Credits
 
-    - [Normalize css](https://github.com/necolas/normalize.css.git)
-    - My github page: [A-N26](https://github.com/A-N26)
+    - ![Normalize css](https://github.com/necolas/normalize.css.git)
+    - My github page: ![A-N26](https://github.com/A-N26)
