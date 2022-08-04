@@ -9,6 +9,17 @@ $(document).ready(function () {
     // ↑to test time responsiveness in console, if need be...
   }, 1000);
 
+  // ↓to retrieve info from local storage
+  $("#nine .description").val(localStorage.getItem("nine"));
+  $("#ten .description").val(localStorage.getItem("ten"));
+  $("#eleven .description").val(localStorage.getItem("eleven"));
+  $("#twelve .description").val(localStorage.getItem("twelve"));
+  $("#one .description").val(localStorage.getItem("one"));
+  $("#two .description").val(localStorage.getItem("two"));
+  $("#three .description").val(localStorage.getItem("three"));
+  $("#four .description").val(localStorage.getItem("four"));
+  $("#five .description").val(localStorage.getItem("five"));
+
   // save button onclick event listener
   $(".saveBtn").on("click", function () {
     console.log("save button action called!!");
@@ -21,16 +32,5 @@ $(document).ready(function () {
     // ↓to store the above description values
     localStorage.setItem(time, text);
   });
-
-  // ↓to retrieve info from local storage
-  $("#nine .description").val(localStorage.getItem("nine"));
-  $("#ten .description").val(localStorage.getItem("ten"));
-  $("#eleven .description").val(localStorage.getItem("eleven"));
-  $("#twelve .description").val(localStorage.getItem("twelve"));
-  $("#one .description").val(localStorage.getItem("one"));
-  $("#two .description").val(localStorage.getItem("two"));
-  $("#three .description").val(localStorage.getItem("three"));
-  $("#four .description").val(localStorage.getItem("four"));
-  $("#five .description").val(localStorage.getItem("five"));
 });
 // localStorage.clear(); ← to clear all values in localStorage and reset
