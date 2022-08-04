@@ -2,13 +2,13 @@
 
 ## Index
 
-    - [Description](#description)
-    - [Links](#links)
-    - [Edits/Additions](#edits/additions)
-    - [Challenges](#challenges)
-    - [Screenshots](#screenshots)
-    - [Badges](#badges)
-    - [Credits](#credits)
+    - [##-Description](#description)
+    - [##-Links](#links)
+    - [##-Edits/Additions](#edits/additions)
+    - [##-Challenges](#challenges)
+    - [##-Screenshots](#screenshots)
+    - [##-Badges](#badges)
+    - [##-Credits](#credits)
 
 ## Description
 
