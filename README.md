@@ -2,13 +2,13 @@
 
 ## Index
 
-    - [##-Description](#description)
-    - [##-Links](#links)
-    - [##-Edits/Additions](#edits/additions)
-    - [##-Challenges](#challenges)
-    - [##-Screenshots](#screenshots)
-    - [##-Badges](#badges)
-    - [##-Credits](#credits)
+- [Description](#description)
+- [Links](#links)
+- [Edits/Additions](#edits/additions)
+- [Challenges](#challenges)
+- [Screenshots](#screenshots)
+- [Badges](#badges)
+- [Credits](#credits)
 
 ## Description
 
@@ -16,15 +16,15 @@ In this challenge, we are tasked with creating a simple hourly calender (9-5) wo
 
 ## Links
 
-    - [Deployed-link](https://a-n26.github.io/Work-day-scheduler/)
-    - [Github-repo-link](https://github.com/A-N26/Work-day-scheduler.git)
+- [Deployed-link](https://a-n26.github.io/Work-day-scheduler/)
+- [Github-repo-link](https://github.com/A-N26/Work-day-scheduler.git)
 
 ## Edits/Additions
 
     Edits:
         <HTML>
             - Added various comments/description (mostly for myself).
-            - Added a reset css file link (normalize.css) in hopess to "normalize" the page across different browsers. (see the creator's [about page](https://nicolasgallagher.com/about-normalize-css/) for more details on the same.)
+            - Added a reset css file link (normalize.css) in hopess to "normalize" the page across different browsers. (see the creator's about page in credits for more details on the same.)
             - Added a title (► Date and Time ◄) in p tag of currentDay after noticing a few seconds of wait/delay time before the dynamic date and time appears on refreshing or opening the url.
             - Added timeblocks from 9am to 5 pm under container (as required) and made adjustments to it to add a text area, save button, corresponding time. And styled them to look aproximately same/similar to the given gif of the assessment.
             - Added an icon from fontawesome to each button.
@@ -74,5 +74,5 @@ In this challenge, we are tasked with creating a simple hourly calender (9-5) wo
 
 ## Credits
 
-    - [Normalize-css](https://github.com/necolas/normalize.css.git)
-    - My github page: [A-N26](https://github.com/A-N26)
+- [Normalize-css](https://github.com/necolas/normalize.css.git), [about me page](https://nicolasgallagher.com/about-normalize-css/)
+- My github page: [A-N26](https://github.com/A-N26)
