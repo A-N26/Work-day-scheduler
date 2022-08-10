@@ -6,10 +6,10 @@
 
 2. [Links](#Links)
 
-3. [Edits/Additions](#Edits/Additions)
-   - [HTML→](#HTML→)
-   - [CSS→](#CSS→)
-   - [Javascript→](#Javascript→)
+3. [Changes](#Changes)
+   - [HTML→](#HTML)
+   - [CSS→](#CSS)
+   - [Javascript→](#Javascript)
 
 4. [Challenges](#Challenges)
 
@@ -29,7 +29,7 @@ In this challenge, we are tasked with creating a simple hourly calender (9-5) wo
 
 - [Github repo link](https://github.com/A-N26/Work-day-scheduler.git)
 
-## Edits/Additions
+## Changes
 
 - Edits:
   - HTML→
